@@ -8,7 +8,7 @@
   },
   "package": {
     "productName": "updaterApp",
-    "version": "1.2.3"
+    "version": "1.2.4"
   },
   "tauri": {
     "allowlist": {
@@ -57,7 +57,7 @@
     "updater": {
       "active": true,
       "endpoints": [
-          "https://tauri-api.p.silver-smok.com/{{target}}/{{current_version}}"
+          "https://tauri-api.p.silver-smok.com/{{target}}"
       ],
       "dialog": true,
       "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDc2ODJCNzQ4NjNGQjM4OUYKUldTZk9QdGpTTGVDZHFubzZSOENXQVF1RjhDeWt2T2JRY0FESXQ5MklPU0IzZXh2MXEzSnVwMkoK"
